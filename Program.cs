@@ -14,7 +14,7 @@ for (int i = 1; i <= max; i++)
         // Multiply row number i by column number j to get the product
         int ResultColumn = j * i;
         // Print the product inside vertical bars with tab spacing for alignment
-        Console.Write("|" + ResultColumn + "|" + "\t");
+        Console.Write("|" + ResultColumn + "|" + "    ");
         // When the last column is reached, move to a new line and print a separator
         if (j == 12)
         {
